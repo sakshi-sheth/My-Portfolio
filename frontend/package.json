@@ -1,0 +1,42 @@
+{
+  "name": "portfolio-frontend",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "build:prod": "tsc && vite build --mode production",
+    "build:dev": "tsc && vite build --mode development",
+    "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
+    "lint:fix": "eslint . --ext ts,tsx --fix",
+    "preview": "vite preview",
+    "preview:prod": "vite preview --mode production",
+    "type-check": "tsc --noEmit",
+    "analyze": "vite build --mode production && npx vite-bundle-analyzer dist/stats.html"
+  },
+  "dependencies": {
+    "@types/react": "^18.2.37",
+    "@types/react-dom": "^18.2.15",
+    "@types/react-router-dom": "^5.3.3",
+    "axios": "^1.5.1",
+    "framer-motion": "^11.3.28",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-hook-form": "^7.47.0",
+    "react-hot-toast": "^2.4.1",
+    "react-intersection-observer": "^9.13.0",
+    "react-router-dom": "^6.30.1"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^6.10.0",
+    "@typescript-eslint/parser": "^6.10.0",
+    "@vitejs/plugin-react": "^4.1.0",
+    "eslint": "^8.53.0",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-plugin-react-refresh": "^0.4.4",
+    "terser": "^5.44.0",
+    "typescript": "^5.2.2",
+    "vite": "^4.5.0"
+  }
+}
