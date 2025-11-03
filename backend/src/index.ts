@@ -11,6 +11,7 @@ import experienceRoutes from "./routes/experience";
 import projectsRoutes from "./routes/projects";
 import contactRoutes from "./routes/contact";
 import profileRoutes from "./routes/profile";
+import healthRoutes from "./routes/health";
 
 // Load environment variables
 dotenv.config();
@@ -51,11 +52,7 @@ app.use("/api/experience", experienceRoutes);
 app.use("/api/projects", projectsRoutes);
 app.use("/api/contact", contactRoutes);
 app.use("/api/profile", profileRoutes);
-
-// Health check endpoint
-app.get("/api/health", (req, res) => {
-  res.json({ status: "OK", timestamp: new Date().toISOString() });
-});
+app.use("/api/health", healthRoutes);
 
 // Error handling middleware
 app.use(
