@@ -1,5 +1,10 @@
 import React from "react";
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import {
+  BrowserRouter as Router,
+  Routes,
+  Route,
+  Navigate,
+} from "react-router-dom";
 import { AuthProvider } from "./contexts/AuthContext";
 import Navigation from "./components/Navigation.tsx";
 import Hero from "./components/Hero.tsx";
@@ -38,6 +43,10 @@ const App: React.FC = () => {
             />
 
             {/* Admin Routes */}
+            <Route
+              path="/admin"
+              element={<Navigate to="/admin/login" replace />}
+            />
             <Route path="/admin/login" element={<Login />} />
             <Route
               path="/admin/dashboard"
