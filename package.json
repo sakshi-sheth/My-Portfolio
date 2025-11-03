@@ -22,6 +22,7 @@
   "author": "Sakshi Sheth",
   "license": "MIT",
   "devDependencies": {
+    "@vercel/node": "^5.5.3",
     "concurrently": "^8.2.2"
   }
 }
