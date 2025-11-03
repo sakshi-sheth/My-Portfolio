@@ -14,17 +14,17 @@ async function createDefaultAdmin() {
     }
 
     // Create default admin user
-    const hashedPassword = await bcrypt.hash("admin123", 12);
+    const hashedPassword = await bcrypt.hash("sakshi123", 12);
 
     const adminUser = await UserModel.create({
-      email: "admin@portfolio.com",
+      email: "sakshisheth100@gmail.com",
       password: hashedPassword,
       role: "admin",
     });
 
     console.log("Default admin user created successfully:");
-    console.log("Email: admin@portfolio.com");
-    console.log("Password: admin123");
+    console.log("Email: sakshisheth100@gmail.com");
+    console.log("Password: sakshi123");
     console.log("Please change this password after first login!");
   } catch (error) {
     console.error("Error creating admin user:", error);
