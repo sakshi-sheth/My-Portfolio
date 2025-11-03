@@ -1,6 +1,6 @@
 # Portfolio Website
 
-A modern, full-stack portfolio website built with React, TypeScript, Express.js, and PostgreSQL. Features beautiful animations, responsive design, and an admin dashboard for content management.
+A modern, full-stack portfolio website built with React, TypeScript, Express.js, and MySQL. Features beautiful animations, responsive design, and an admin dashboard for content management.
 
 ## ✨ Features
 
@@ -238,36 +238,24 @@ The admin dashboard allows you to:
 
 ### Backend (Heroku/Railway)
 
-1. Set up your PostgreSQL database
+1. Set up your MySQL database
 2. Configure environment variables
 3. Deploy the backend code
 4. Run migrations: `npm run migrate`
 
 ### Database
 
-1. Set up a PostgreSQL database (ElephantSQL, Supabase, etc.)
+1. Set up a MySQL database (PlanetScale, Railway, etc.)
 2. Update connection strings in environment variables
 3. Run migrations to set up the schema
-
-## 🤝 Contributing
-
-1. Fork the repository
-2. Create a feature branch: `git checkout -b feature-name`
-3. Commit your changes: `git commit -m 'Add feature'`
-4. Push to the branch: `git push origin feature-name`
-5. Open a pull request
-
-## 📄 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## 🙋‍♀️ Support
 
 If you have any questions or need help setting up the project, please feel free to:
 
 - Open an issue on GitHub
-- Contact me at [your-email@example.com]
+- Contact me at [sakshisheth100@gmail.com]
 
 ---
 
-Built with ❤️ using React, TypeScript, Express.js, and PostgreSQL
+Built with ❤️ using React, TypeScript, Express.js, and MySQL

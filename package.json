@@ -1,7 +1,7 @@
 {
   "name": "portfolio-website",
   "version": "1.0.0",
-  "description": "Full-stack portfolio website with React, Express, and PostgreSQL",
+  "description": "Full-stack portfolio website with React, Express, and MySQL",
   "main": "index.js",
   "scripts": {
     "dev": "concurrently \"npm run dev:backend\" \"npm run dev:frontend\"",
@@ -17,7 +17,7 @@
     "react",
     "express",
     "typescript",
-    "postgresql"
+    "mysql"
   ],
   "author": "Sakshi Sheth",
   "license": "MIT",
