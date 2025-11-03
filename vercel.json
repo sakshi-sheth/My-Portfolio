@@ -16,12 +16,11 @@
   "routes": [
     {
       "src": "/api/(.*)",
-      "dest": "backend/src/index.ts"
+      "dest": "/backend/src/index.ts"
     },
     {
       "src": "/(.*)",
-      "dest": "frontend/dist/$1"
+      "dest": "/frontend/dist/$1"
     }
-  ],
-  "outputDirectory": "frontend/dist"
+  ]
 }
